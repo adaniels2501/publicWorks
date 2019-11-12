@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+
+body {
+    background-color: #232323;
+    margin: 0;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+ 
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    -o-transition: background 0.6s;
+}
+
+h1 {
+    color: #fff;
+    line-height: 1.1;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+#stripe {
+    background-color: #fff;
+    height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.selected {
+    color: #fff;
+    background: steelblue;
+}
+
+#colorDisplay {
+    font-size: 190%;
+}
+
+button {
+    border: none;
+    outline: 0;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: #fff;
+    background: steelblue;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
